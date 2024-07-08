@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading h1{
+    text-decoration: underline;
+    font-weight: 300;
+    text-decoration-thickness: 1px;
+}
+
+
+.links a{
+    text-decoration: none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    list-style-type:number;
+}
+.links li{
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+}
